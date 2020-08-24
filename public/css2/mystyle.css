@@ -1,0 +1,70 @@
+
+table{
+    text-align: center;
+}
+table td{
+    border: 1px solid black;
+}
+artice{
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear:both;
+}
+
+.attachments{
+    clear:both;
+}
+
+.comments{
+    clear:both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.comment{
+    width: 55%;
+}
+.none{
+    display: none;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.box{
+  position: relative;
+}
+
+.remove-credit-inputs{
+  position: absolute;
+  right: -25px;
+  bottom: 8px;
+}
+
+.prihlaseni-content .box input{
+    width: 65%;
+}
+
+.ui-icon, .ui-widget-content .ui-icon, .ui-widget-header .ui-icon{
+    background-image: url(../img/ui-icons_222222_256x240.png);
+}

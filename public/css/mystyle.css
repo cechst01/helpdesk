@@ -1,0 +1,216 @@
+.stav.novy p {
+    color: #c7c7c7;
+    border: 2px solid #c7c7c7;
+}
+
+.stav.ke-zpracovani p {
+    color: #c6538c;
+    border: 2px solid #c6538c;
+}
+
+.stav.zamitnuto p {
+    color: #ff704d;
+    border: 2px solid #ff704d;
+}
+
+.stav.reklamace p {
+    color: #00cccc;
+    border: 2px solid #00cccc;
+}
+
+.stav.zpracovava-se p {
+    color: #ffb366;
+    border: 2px solid #ffb366;
+}
+
+.stav.schvaleni-rozpoctu p {
+    color: #996633;
+    border: 2px solid #996633;
+}
+
+.stav.rozpocet-zamitnut p {
+    color: #ff1a66;
+    border: 2px solid #ff1a66;
+}
+
+.stav.rozpocet-schvalen p {
+    color: #00e6ac;
+    border: 2px solid #00e6ac;
+}
+
+.stav.kontrola-zakaznikem p {
+    color: #068bca;
+    border: 2px solid #068bca;
+}
+
+.stav.pripominka p {
+    color: #f1001c;
+    border: 2px solid #f1001c;
+}
+
+.stav.vyrizeno p {
+    color: #42b901;
+    border: 2px solid #42b901;
+}
+
+.stav.smazano p {
+    color: #000;
+    border: 2px solid #000;
+}
+
+.stav.novy p a {
+    color: #c7c7c7;
+}
+
+.stav.ke-zpracovani p a{
+    color: #c6538c;
+}
+
+.stav.zamitnuto p a{
+    color: #ff704d;
+}
+
+.stav.reklamace p a {
+    color: #00cccc;
+}
+
+.stav.zpracovava-se p a {
+    color: #ffb366;
+}
+
+.stav.schvaleni-rozpoctu p a {
+    color: #996633;
+}
+
+.stav.rozpocet-zamitnut p a {
+    color: #ff1a66;
+}
+
+.stav.rozpocet-schvalen p a {
+    color: #00e6ac;
+}
+
+.stav.kontrola-zakaznikem p a {
+    color: #068bca;
+}
+
+.stav.pripominka p a {
+    color: #f1001c;
+}
+
+.stav.vyrizeno p a{
+    color: #42b901;
+}
+
+.stav.smazano p a {
+    color: #000;
+}
+
+.button.zobrazit.smazane{
+    color: #f1001c;
+    border-color: #f1001c;
+}
+
+table{
+    text-align: center;
+}
+table td{
+    border: 1px solid black;
+}
+artice{
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear:both;
+}
+
+.attachments{
+    clear:both;
+}
+
+.comments{
+    clear:both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+
+.comment{
+    width: 55%;
+}
+.none{
+    display: none;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.box{
+  position: relative;
+}
+
+.remove-button{
+  position: absolute;
+  right: -25px;
+  bottom: 8px;
+}
+
+.approve-form label{
+    display: block;
+}
+
+.ui-icon, .ui-widget-content .ui-icon, .ui-widget-header .ui-icon{
+    background-image: url(../img/ui-icons_222222_256x240.png);
+}
+
+.box.notification-checkbox input[type="checkbox"]{
+    width: 50%;
+    height: 25px;
+}
+
+.title-center{
+    text-align: center;
+    color: #85969e;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+    position: relative;
+    margin: 30px auto 10px auto;
+    width: 220px;
+    border-bottom: 1px solid #e0e3ec;
+}
+
+.page-content .history-table th{
+    padding: 6px 5px;
+}
+.page-content .history-table td{
+    padding: 3px 5px;
+}
+
+.box.block{
+    display: block;
+}
+
+.box.block input{
+    width:100%;
+}

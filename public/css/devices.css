@@ -1,0 +1,294 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .overflowhidden {
+    padding-right: 0;
+  }
+
+  .p30-bb, footer {
+    padding: 20px 0;
+  }
+
+  .strankovani {
+    margin-top: 20px;
+  }
+
+  .page-content table {
+    margin-top: 10px;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+  .page-content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .page-content table td.stav p {
+    width: 100px;
+    font-size: 11px;
+  }
+
+  .page-content table th, .page-content table td {
+    padding: 10px;
+  }
+
+  .three-forms .filtration-content .box {
+    width: 50%;
+  }
+
+  .scrollToTop {
+    padding-top: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  input, select, textarea {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    transform-origin: top left !important;
+    box-shadow: unset !important;
+    background: transparent;
+    outline: none;
+  }
+
+  input:focus, textarea:focus {
+  	font-size: 16px !important;
+  }
+
+  .detail-ticket .left-side {
+    padding-right: 15px;
+  }
+
+  .detail-ticket .right-side {
+    padding-left: 15px;
+  }
+
+  .prihlaseni {
+    padding: 20px 0;
+  }
+
+  .prihlaseni-content {
+    height: auto;
+    padding: 20px 15px;
+  }
+
+  .prihlaseni-content h1 {
+    margin-bottom: 20px;
+  }
+
+  .prihlaseni-content .button {
+    margin-top: 0;
+  }
+
+  /* disable auto-zoom on iphone input field focus */
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  	select:focus, textarea:focus, input:focus {
+  		font-size: 16px !important;
+  	}
+  }
+
+}
+
+@media (max-width: 768px) {
+  header .logo {
+    margin-right: 20px;
+  }
+
+  header .logo img, footer .logo img {
+    width: 100px;
+  }
+
+  header .contact {
+    display: none;
+  }
+
+  .title-section .right-side {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .title-section .time {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .filtration {
+    flex-wrap: wrap;
+  }
+
+  .filtration-buttons .button {
+    margin: 10px 20px 10px 0;
+  }
+
+  .strankovani {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pagination {
+    margin: 15px 0;
+  }
+
+  .strankovani p {
+    line-height: 14px;
+  }
+
+  .detail-ticket {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .detail-ticket .left-side {
+    padding-right: 0;
+    width: 100%;
+    border-right: 0;
+  }
+
+  .detail-ticket .right-side {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .detail-ticket .right-side::before {
+    display: none;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .title2 {
+    margin-bottom: 20px;
+  }
+
+  .detail-ticket .left-side .buttons {
+    margin-top: 20px;
+  }
+
+  .helpdesk {
+    font-size: 19px;
+  }
+
+  .table-responsive {
+    overflow: hidden;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .title-section .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .title-section .right-side {
+    justify-content: center;
+  }
+
+  .title-section .time {
+    text-align: center;
+  }
+
+  .title-section h1 {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .filtration .filtration-content {
+    margin: 0 -15px;
+    flex-direction: inherit;
+  }
+
+  .box {
+    margin-right: 0;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .box input, .box textarea, .box select {
+    width: 100%;
+  }
+
+  .filtration-buttons {
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .filtration-buttons .button {
+    margin: 10px 0 10px 20px;
+  }
+
+  .file-manager {
+    padding: 0 15px;
+    margin-top: 0;
+  }
+
+  .informace {
+    padding: 20px 15px;
+    margin-top: 20px;
+  }
+
+  .three-forms .filtration-content .box {
+    width: 100%;
+  }
+
+  .box.mt60-border {
+    border-top: 0;
+    margin-top: 30px !important;
+    padding-top: 20px !important;
+  }
+
+  .page-content table th, .page-content table td {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .page-content table th {
+    font-size: 11px;
+  }
+
+  .page-content table td.stav p {
+    font-size: 10px;
+    width: 90px;
+  }
+
+  .table-responsive table {
+    min-width: 605px;
+  }
+
+}
+
+@media (max-width: 420px) {
+
+  header .user img {
+    display: none;
+  }
+
+  header .user p strong {
+    font-size: 16px;
+  }
+
+  footer .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer .container p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+}
